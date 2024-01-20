@@ -9,7 +9,7 @@ import os
 load_dotenv()  # take environment variables from .env.
 
 trading_client = TradingClient(os.getenv('ALPACA_PUBLIC'), os.getenv('ALPACA_SECRET'))
-moving_averages = [30,70] # customizable moving averages
+moving_averages = [30,100] # customizable moving averages
 tickers = ['SPY', 'VNQ', 'GSG', 'TLH'] # customizable tickers to trade
 
 
